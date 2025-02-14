@@ -1,0 +1,3 @@
+class AppURLs {
+  static pesquisasEndpoint = "";
+}

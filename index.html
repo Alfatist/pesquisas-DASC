@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta name="description" content="Uma página para centralizar os resultados de pesquisas">
+  <meta name="robots" content="noindex">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pesquisas DASC</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Resetando estilos padrões */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #2d3748;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      color: #4a5568;
+    }
+
+    hr {
+      margin-top: 30px;
+      border: 0;
+      border-top: 2px solid #e2e8f0;
+    }
+
+    main {
+      margin-top: 30px;
+    }
+
+    .research-list {
+      list-style: none;
+    }
+
+    .research-list li {
+      margin-bottom: 20px;
+    }
+
+    details {
+      background-color: #edf2f7;
+      border: 1px solid #cbd5e0;
+      border-radius: 8px;
+      padding: 15px;
+      cursor: pointer;
+    }
+
+    details summary {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #2d3748;
+    }
+
+    details p {
+      margin-top: 10px;
+      color: #4a5568;
+    }
+
+    details[open] {
+      background-color: #e2e8f0;
+    }
+
+    details[open] summary {
+      color: #2b6cb0;
+    }
+
+    details p {
+      font-size: 1rem;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Resultados de Pesquisas DASC</h1>
+      <p>Uma centralização de pesquisas realizadas pelos alunos de TSC, para TSC.</p>
+    </header>
+    
+    <hr>
+    
+    <main>
+      <ul class="research-list" id="lista_pesquisa">
+        <li>
+          <details>
+            <summary><del>(se está vendo isso, o JS por algum motivo não funcionou)</del> </summary>
+            <p>
+              <ul>
+                <li>
+                  <details><summary>26/09/2024 - 14/12/2025</summary>
+                    Pesquisa realizada antes do DASC ter entrado em contato com todos coordenadores nos polos referente aos grupos. Visa ter uma ideia de como os alunos estavam divididos nos grupos em relação aos polos.
+                    <details> <summary>No telegram, com 144 votantes</summary> <ul><li>69% Grande Rio (Belford Roxo, Itaguaí, Niterói, Rocinha...); </li><li>12% Cantagalo, Piraí, Rio Bonito ou Saquarema;</li> <li>5% Volta Redonda;</li> <li>4% Angra dos Reis;</li> <li>3% Três Rios;</li> <li>3% Itaperuna;</li> <li>2% São Fidelis</li> <li>1% Rio das Flores</li> <li>1% Barra do Piraí;</li> <li>0% Itaocara</li> </ul></details>
+                    <details><summary> No whatsapp, com 47 votantes</summary> <ul><li>33 do Grande Rio;</li> <li>10 Cantagalo, Piraí, Rio Bonito ou Saquarema;</li> <li>2 Três Rios;</li> <li>1 de Angra;</li> <li>1 de Volta Redonda;</li> <li>0 de Barra do Piraí, Itaocara, Itaperuna, Itaperuna, Rio das Flores e São Fidelis.</li></ul></details>
+                    <details><summary> No whatsapp dos calouros de 2024.2, com 45 votantes</summary> <ul><li>33 do Grande Rio;</li> <li>7 São Fidelis</li> <li>5 Cantagalo, Piraí, Rio Bonito ou Saquarema;</li> <li>0 do restante.</li></ul></details>
+                  </details></li> 
+                  <li>
+                  <details><summary>03/12/2024 - 31/12/2024</summary>
+                    Pesquisa realizada depois do DASC ter entrado em contato com todos os polos referente aos grupos. Visa ter uma ideia de como os alunos estavam divididos nos grupos em relação aos polos.
+                    <details><summary>No discord, com 72 votantes</summary> <ul><li>58% Grande Rio (Belford Roxo, Itaguaí, Niterói, Rocinha...); </li><li>15% Cantagalo, Angra ou Rio Bonito;</li> <li>10% Saquarema;</li> <li>7% Itaperuna</li> <li>4% Volta Redonda;</li> <li>4% Três Rios</li> <li>1% Piraí</li> <li>0% Rio das Flores, São Fidelis ou Itaocara</li> </ul></details>
+                    <details><summary>No whatsapp, com 87 votantes</summary> <ul><li>61 do Grande Rio (Belford Roxo, Itaguaí, Niterói, Rocinha...);</li> <li>5 Piraí;</li> <li>5 Saquarema;</li> <li>5 Volta Redonda;</li> <li>4 Cantagalo ou Rio Bonito;</li> <li>3 Angra dos Reis;</li> <li>1 Barra do Piraí</li> <li>1 Itaperuna</li> <li>São Fidélis</li> <li>1 Três Rios</li> <li>Itaocara</li> <li>Rio das Flores</li> </ul></details>
+  
+                  </details>
+                </li>
+              </ul>
+            </p>
+          </details>
+          
+        </li>
+        
+        <li>
+          <details>
+            <summary>Você está entrando na área agora?</summary>
+            <p>
+              <ul>
+                <li>
+                  <details><summary>07/02/2025 - 14/12/2025</summary>
+                    <details> <summary>No whatsapp, com 48 votantes</summary> <ul><li>24 Sim, até sei o que fazer de vez em quando, mas tudo nos trancos e barrancos.</li><li>14 Sim, sei nem por onde começar.</li> <li>10 Não, já estou estabelecido e não tenho dúvidas.</li> <li>4% Angra dos Reis;</li> <li>3% Três Rios;</li> <li>3% Itaperuna;</li> <li>2% São Fidelis</li> <li>1% Rio das Flores</li> <li>1% Barra do Piraí;</li> <li>0% Itaocara</li> </ul></details>      
+                  </details>
+                </li> 
+                <li>
+                  <details><summary>03/12/2024 - 31/12/2024</summary>
+                    Pesquisa realizada depois do DASC ter entrado em contato com todos os polos referente aos grupos. Visa ter uma ideia de como os alunos estavam divididos nos grupos em relação aos polos.
+                    <details><summary>No discord, com 72 votantes</summary> <ul><li>58% Grande Rio (Belford Roxo, Itaguaí, Niterói, Rocinha...); </li><li>15% Cantagalo, Angra ou Rio Bonito;</li> <li>10% Saquarema;</li> <li>7% Itaperuna</li> <li>4% Volta Redonda;</li> <li>4% Três Rios</li> <li>1% Piraí</li> <li>0% Rio das Flores, São Fidelis ou Itaocara</li> </ul></details>
+                    <details><summary>No whatsapp, com 87 votantes</summary> <ul><li>61 do Grande Rio (Belford Roxo, Itaguaí, Niterói, Rocinha...);</li> <li>5 Piraí;</li> <li>5 Saquarema;</li> <li>5 Volta Redonda;</li> <li>4 Cantagalo ou Rio Bonito;</li> <li>3 Angra dos Reis;</li> <li>1 Barra do Piraí</li> <li>1 Itaperuna</li> <li>São Fidélis</li> <li>1 Três Rios</li> <li>Itaocara</li> <li>Rio das Flores</li> </ul></details>
+  
+                  </details>
+                </li>
+              </ul>
+            </p>
+          </details>
+          
+        </li>
+        <!-- Adicione mais itens de pesquisa aqui -->
+        <!--
+        <li>
+          <details>
+            <summary>Título da pesquisa</summary>
+            <p>Resultados da pesquisa...</p>
+          </details>
+        </li>
+        -->
+      </ul>
+    </main>
+  </div>
+</body>
+</html>
