@@ -1,8 +1,10 @@
 {
-  "Alcance digital": {
-    "id": "1",
-    "data": null,
-    "titulo": "Polos nos grupos do DASC (Telegram, Discord e Whatsapp)",
-    "corpoHTML": "<ul><li></li> <li></li></ul>"
+  "posts": {
+    "Polos nos grupos do DASC (Telegram, Discord e Whatsapp)": {
+      "id": "1",
+      "data": null,
+      
+      "corpoHTML": "<ul><li></li> <li></li></ul>"
+    }
   }
 }
